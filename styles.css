@@ -1,0 +1,41 @@
+/* 1. Background color and font */
+body {
+  background-color: #9af3e3;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* 2. Grouped selector - center text for h1 and .intro */
+h1, .intro {
+  text-align: center;
+  color: #2a52be; /* blue for h1 and intro */
+}
+
+/* 3. Font size and line height for paragraphs */
+.story {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  color: #444;
+}
+
+/* 4. Center image using block & margin auto */
+.trip-photo {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* 5. Combined selector - direct child of header with class */
+header > .title {
+  font-weight: bold;
+}
+
+/* 6. Combined class selector */
+.page-header.content-header {
+  padding: 20px;
+  background-color: #e6f2ff;
+}
